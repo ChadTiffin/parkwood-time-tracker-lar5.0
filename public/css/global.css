@@ -1,0 +1,171 @@
+header {
+	color: #777;
+	margin: 10px;
+}
+
+header .logo {
+	width: 200px;
+	margin: 10px;
+}
+
+header .title {
+	display: inline-block;
+	font-size: 24pt;
+	vertical-align: middle;
+	margin: 10px;
+	margin-left: 20px;
+}
+
+header .title .greeting {
+	font-size: 12pt;
+}
+
+header form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+header nav .btn {
+	margin: 10px;
+} 
+
+header .clock-status {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	color: #F65555;
+	font-size: 14pt;
+}
+
+.glyphicon-menu-hamburger {
+	display: none;
+}
+
+.main {
+	margin: 30px;
+	margin-top: 100px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login form {
+	max-width: 500px;
+	margin: auto;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+}
+
+.btn-xs img {
+	width: 25px;
+}
+
+.summary .table td {
+	text-align: right;
+}
+
+.edit-controls button {
+	opacity: 0.1;
+}
+
+tr:hover .edit-controls button {
+	opacity: 1;
+}
+
+.modal-success {
+	display: none;
+}
+
+.modal-body p {
+	padding: 10px;
+	font-size: 16pt;
+	text-align: center;
+}
+
+.modal-close, .modal-loading {
+	display: none;
+}
+
+.date-field-align-fix {
+	padding-left: 8px;
+    padding-right: 50px;
+}
+
+img.ajax-loader {
+
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    -webkit-animation:spin 1.5s linear infinite;
+    -moz-animation:spin 1.5s linear infinite;
+    animation:spin 1.5s linear infinite;
+
+}
+
+.overflow-x {
+	overflow-x: auto;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width: 940px) {
+	.glyphicon-menu-hamburger {
+		display: block;
+		width: 40px;
+		height: 40px;
+		font-size: 2em;
+		top: 14px;
+		margin-left: 20px;
+		cursor: pointer;
+	}
+
+	.navbar-nav {
+		display: none;
+		position: fixed;
+		top: 90px;
+		left: 0;
+		right: 0;
+		background-color: white;
+		border-bottom: 1px solid #e7e7e7;
+	}
+
+	.navbar-nav li {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 650px) {
+	header .logo {
+		display: none;
+	}
+}
+
+@media (max-width: 430px) {
+	header .title {
+		font-size: 14pt;
+	}
+
+	header .clock-status {
+		font-size: 10pt;
+		bottom: -8px;
+	}
+
+	.navbar-nav {
+		top: 61px;
+	}
+
+	.main {
+		margin-top: 80px;
+	}
+
+}
