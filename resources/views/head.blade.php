@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Time Tracker on Laravel 5.2.45</title>
+<title>Time Tracker on Laravel 5.3</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
