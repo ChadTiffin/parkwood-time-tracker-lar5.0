@@ -102,7 +102,7 @@
 					@if (count($logs) == 0)
 
 						<tr>
-							<td colspan="5">No entries found.</td>
+							<td colspan="6">No entries found.</td>
 						</tr>
 					@else
 						@foreach ($logs as $log)
@@ -140,7 +140,7 @@
 					</tbody>
 					<tfoot>
 						<tr>
-							<th colspan="3" style="text-align:right;">Total</th>
+							<th colspan="4" style="text-align:right;">Total</th>
 							<td style="text-align:right;"><strong><?=$query_total?></strong></td>
 							<td colspan="2"></td>
 						</tr>
